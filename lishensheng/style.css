@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Canger;
+    src: url("./ceAndMo.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #373B44;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #4286f4, #373B44); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #4286f4, #373B44); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.content {
+    min-width: 1450px;
+    width: 1450px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    font-family: Canger;
+}
+
+.nav div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav span {
+    background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 25px 55px;
+    margin: 50px 0;
+    border-radius: 50px;
+    font-size: 30px;
+    /* color: white; */
+}

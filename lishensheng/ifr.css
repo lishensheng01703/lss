@@ -1,0 +1,30 @@
+@import url("./animate.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+body {
+    /* background-color: aquamarine; */
+    overflow: hidden;
+}
+.h1-title{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.title-box {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.title-box div {
+    color: yellow;
+}
+.detail-box {
+    width: 1200px;
+    font-size: 20px;
+}
